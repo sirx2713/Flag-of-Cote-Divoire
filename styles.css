@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    background-color: #FFE8C8;
+    text-align: center;
+}
+#main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#main-div > #orange-div{
+    height: 800px;
+    width: 200px;
+    background-color: #FF8200;
+}
+#main-div > #white-div{
+    height: 800px;
+    width: 200px;
+    background-color: white;
+}
+#main-div > #green-div{
+    height: 800px;
+    width: 200px;
+    background-color: #009A44;
+}
